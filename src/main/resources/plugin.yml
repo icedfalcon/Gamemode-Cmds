@@ -1,0 +1,20 @@
+name: GamemodeCmds
+version: '${project.version}'
+main: com.icedfalcon.gamemodecmds.GamemodeCmds
+api-version: 1.17
+authors: [ IcedFalcon ]
+description: Gamemode commands for spigot 1.17.1
+website: https://github.com/icedfalcon/Gamemode-Cmds
+commands:
+  gmc:
+    description: Gamemode Creative
+    usage: /<command>
+  gms:
+    description: Gamemode Survival
+    usage: /<command>
+  gma:
+    description: Gamemode Adventure
+    usage: /<command>
+  gmsp:
+    description: Gamemode Spectator
+    usage: /<command>
